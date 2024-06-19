@@ -9,11 +9,11 @@
 <body>
     <!-- Titulo -->
     <div>
-        <h1>Cadastro</h1>
+        <h1 id="titulo">Cadastro</h1>
     </div>
 <!-- nome e sobrenome -->
     <form action="">
-        <fieldset class="campo">
+        <fieldset class="grupo">
             <div class="campo">
                 <label for="">
                     <strong>Nome</strong>
@@ -30,7 +30,7 @@
             
         </fieldset>
         <!-- email e senha -->
-        <fieldset class="campo">
+        <fieldset class="grupo">
             <div class="campo">
                 <label for="">
                     <strong>Email</strong>
@@ -45,8 +45,8 @@
             </div>
         </fieldset>
 <!-- data nascimento -->
-        <div>
-            <div>
+        <div class="campo">
+            <div class="campo">
                 <label for="">
                     <strong>Data de nascimento</strong>
                 </label>
@@ -79,7 +79,7 @@
             </select>
         </div>
         <!-- botão -->
-        <button type="submit" onsubmit="">
+        <button type="submit" onsubmit="" class="btn">
             Cadastrar
         </button>
     </form>
